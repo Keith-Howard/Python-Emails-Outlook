@@ -19,5 +19,3 @@ def send_outlook_email(text, subject, recipient, attachment_list, auto=True):
     else:
         mail.Display(True)
 
-
-send_outlook_email("test text", "test subject", "testemail@gmail.com", [], auto=True)
